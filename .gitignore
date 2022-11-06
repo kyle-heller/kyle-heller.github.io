@@ -1,0 +1,31 @@
+# Bundler cache
+.bundle
+vendor
+Gemfile.lock
+
+# Jekyll cache
+.jekyll-cache
+_site
+.sass-cache
+
+# RubyGems
+*.gem
+
+# NPM dependencies
+node_modules
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Raw posts (not for production)
+_raw_posts/
+*.zip
+
+# Misc
+hm.md

@@ -1,0 +1,129 @@
+# The Site Configuration
+
+theme: jekyll-theme-chirpy
+
+# The language of the webpage
+lang: en
+
+# Change to your timezone
+timezone: America/New_York
+
+# jekyll-seo-tag settings
+title: Kyle Heller
+tagline: Platform Engineering | Cloud Infrastructure | Career Notes
+description: >-
+  Personal blog covering platform engineering, Terraform, Kubernetes, Veeam,
+  cloud infrastructure, and the occasional career reflection.
+
+# Site URL
+url: "https://kyleheller.dev"
+
+github:
+  username: kyle-heller
+
+social:
+  name: Kyle Heller
+  email: # your email (optional)
+  links:
+    - https://github.com/kyle-heller
+    # - https://linkedin.com/in/yourprofile
+
+# Web Analytics Settings (optional - fill in later)
+# google_analytics:
+#   id: ""
+
+# Prefer color scheme setting
+theme_mode: dark
+
+# The CDN endpoint for images
+# img_cdn: ""
+
+# Avatar on sidebar
+avatar: /assets/img/avatar.jpg
+
+# Table of contents
+toc: true
+
+# Comments (optional - can configure later)
+comments:
+  active: # giscus, utterances, disqus
+  # giscus:
+  #   repo:
+  #   repo_id:
+  #   category:
+  #   category_id:
+
+# Self-hosted static assets
+assets:
+  self_host:
+    enabled: false
+
+# PWA
+pwa:
+  enabled: true
+  cache:
+    enabled: true
+
+# Pagination
+paginate: 10
+
+# Kramdown settings
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    block:
+      line_numbers: true
+
+# Collections
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+      toc: true
+      permalink: /posts/:title/
+  - scope:
+      path: _tabs
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - docs
+  - tools
+  - README.md
+  - LICENSE
+  - "*.config.js"
+  - package*.json
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
