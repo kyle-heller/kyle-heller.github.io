@@ -52,7 +52,7 @@ jobs:
           bundle exec htmlproofer _site \
             --disable-external \
             --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/" \
-            --allow-missing-href=true \
+            --allow-missing-href \
             --no-enforce-https
 
       - name: Upload site artifact
