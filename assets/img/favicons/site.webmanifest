@@ -1,0 +1,14 @@
+{
+  "name": "Kyle Heller",
+  "short_name": "Kyle Heller",
+  "icons": [
+    {
+      "src": "/assets/img/favicons/favicon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#1b1b1e",
+  "background_color": "#1b1b1e",
+  "display": "standalone"
+}
