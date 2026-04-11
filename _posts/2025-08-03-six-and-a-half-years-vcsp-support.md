@@ -5,7 +5,7 @@ categories: [Career, Veeam]
 tags: [veeam, vcsp, support-engineering, cloud-infrastructure, career]
 ---
 
-I've been at Veeam for six and a half years. I started as a support engineer taking calls from cloud service provider partners, and I'm now a Technical Lead running architectural assessments on their production environments. Along the way, I've seen more infrastructure failures than most engineers see in a career. When you're in VCSP support, that's just the job. A firehose of real-world production problems from dozens of different environments every week.
+I've been at Veeam for six and a half years. I started as a support engineer taking calls from cloud service provider partners, and I'm now a Technical Lead serving as the senior escalation point across their production environments. Along the way, I've seen more infrastructure failures than most engineers see in a career. When you're in VCSP support, that's just the job. A firehose of real-world production problems from dozens of different environments every week.
 
 
 ## The environments

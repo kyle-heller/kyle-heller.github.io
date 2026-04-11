@@ -7,7 +7,7 @@ tags: [automation, veeam, n8n, puppeteer, python, productivity]
 
 Every week, I was spending hours on compliance reporting. Pull data from one system, cross-reference it with another, format it for leadership, paste it into the right template. It was the kind of work that felt productive because it was time-consuming. It wasn't productive. It was just slow.
 
-I'm a Technical Lead on the NA VCSP Support team at Veeam. My job is supposed to be leading architectural assessments, mentoring engineers, and driving resolution on critical production issues. Not copying data between browser tabs.
+I'm a Technical Lead on the NA VCSP Support team at Veeam. My job is supposed to be leading escalations, mentoring engineers, and driving resolution on critical production issues. Not copying data between browser tabs.
 
 So I automated it.
 
